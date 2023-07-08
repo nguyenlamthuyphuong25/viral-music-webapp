@@ -1,0 +1,173 @@
+.playlist-container {
+  background: linear-gradient(
+      180deg,
+      #1d2123a4 20%,
+      rgba(29, 33, 35, 0.315) 80%
+    ),
+    url(../../src/asset/Login_Background.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.playlist-header-text-container {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  line-height: 0;
+  margin-top: 2%;
+  align-items: center;
+}
+.playlist-header-text-top {
+  font-size: 64px;
+  margin-right: 16px;
+  color: #fff;
+}
+
+.playlist-header-text-playlist {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.24em;
+}
+
+.playlist-header-text-collection {
+  font-size: 26px;
+  letter-spacing: 0.24em;
+}
+
+.playlist-pic-container {
+  margin-top: 2%;
+  display: flex;
+  width: 1628px;
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 1628px;
+}
+
+.playlist-pic-relative {
+  position: relative;
+  margin-right: 24px;
+}
+
+.playlist-pic {
+  width: 480px;
+  height: 282.25px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.playlist-pic-container-hover {
+  width: 480px;
+  height: 282.25px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.72) 0%,
+    rgba(0, 0, 0, 0) 0.01%,
+    rgba(0, 0, 0, 0.72) 47.92%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 32px;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.playlist-pic-container-hover:hover {
+  opacity: 100;
+  z-index: 100;
+}
+
+.playlist-pic-hover {
+  width: 64px;
+  height: 64px;
+  margin-top: 8%;
+  transition: all 0.1s linear 0.1s;
+}
+
+.playlist-pic-hover:hover {
+  width: 72px;
+  height: 72px;
+  margin-top: 8%;
+  cursor: pointer;
+}
+
+.playlist-text-hover {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.playlist-text-hover-most-listen {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.playlist-user-container {
+  display: flex;
+  width: 480px;
+  height: 145px;
+  background: rgba(51, 55, 59, 0.37);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 24px;
+  margin-right: 24px;
+}
+
+.playlist-user-img {
+  width: 112px;
+  height: 112px;
+  border-radius: 16px;
+  margin-right: 16px;
+}
+
+.playlist-user-text-container {
+  color: #FFF;
+}
+
+.playlist-user-title {
+  margin: 0;
+  font-size: 26px;
+  width: 240px;
+  margin-right: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.playlist-user-date {
+  line-height: 0;
+  font-style: italic;
+}
+
+.playlist-user-container-box {
+  display: flex;
+}
+
+.playlist-scroll-container {
+  display: flex;
+  align-items: center;
+}
+
+.playlist-button-next {
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  margin-left: -24px;
+  color: rgba(51, 55, 59, 0.64);
+  transition: all 0.15s linear 0.15s;
+}
+
+.playlist-button-next:hover {
+  cursor: pointer;
+  color: #FFF;
+}

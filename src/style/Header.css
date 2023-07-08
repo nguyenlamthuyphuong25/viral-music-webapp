@@ -1,0 +1,32 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.header-logo {
+  margin-right: 4%;
+}
+
+.header-search input.ant-input {
+  background: none;
+  color: rgba(255, 255, 255, 0.56);
+  text-indent: 16px;
+  width: 560px !important;
+  height: 72px;
+  background-color: rgba(0, 0, 0, 0.48);
+  color: rgba(255, 255, 255, 0.56);
+  border-radius: 20px !important;
+  border: none;
+  text-indent: 16px;
+  font-size: 16px;
+}
+
+.header-search .ant-input-group-addon {
+    display: none;
+}
+
+.header-search input.ant-input::placeholder {
+  color: rgba(255, 255, 255, 0.56);
+}

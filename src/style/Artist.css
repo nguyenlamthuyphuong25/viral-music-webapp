@@ -1,0 +1,9 @@
+.artist-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  object-fit: cover;
+}

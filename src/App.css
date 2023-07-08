@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html, body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.app-background {
+  background: linear-gradient(180deg, #1d2123 0%, rgba(29, 33, 35, 0) 100%),
+    url(../src/asset/Login_Background.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}

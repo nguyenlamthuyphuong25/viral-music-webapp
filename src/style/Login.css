@@ -1,0 +1,68 @@
+body,
+html {
+  height: 100% !important;
+  margin: 0;
+}
+
+.login-container {
+  height: 100% !important;
+}
+
+.login-background {
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.login-form-container {
+  height: 80%;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+}
+
+.login-form-left {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 40px;
+  padding-left: 8%;
+}
+
+.login-google {
+  text-align: center;
+}
+
+.login-submit {
+  width: 100%;
+  height: 50px;
+  opacity: 80% !important;
+  background-color: #FACD66;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login-submit:hover {
+  color: #FFF !important;
+  opacity: 100% !important;
+}
+
+.login-image {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container .ant-form-item-required {
+  font-size: 16px !important;
+}

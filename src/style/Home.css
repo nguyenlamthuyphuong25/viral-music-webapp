@@ -1,0 +1,205 @@
+.home-container {
+  background: linear-gradient(180deg, #1d2123a4 20%, rgba(29, 33, 35, 0.315) 80%),
+    url(../../src/asset/Login_Background.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.home-tag-scroll {
+  overflow: auto;
+  white-space: nowrap;
+  width: 1648px;
+  margin-top: 2%;
+  cursor: grab;
+}
+
+.home-tag-scroll a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  width: 109px;
+  padding: 14px;
+  margin-right: 16px;
+  text-decoration: none;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(5px);
+}
+
+.home-banner-container {
+  height: 614px;
+  position: relative;
+  margin-top: 2%;
+  border-radius: 40px;
+}
+
+.home-tag-scroll a:hover {
+  background-color: #777;
+}
+
+.home-top-charts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-top-charts-header {
+  color: #fff;
+  font-size: 24px;
+}
+
+.home-top-charts-see-more {
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.home-top-charts-song-container {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  margin-bottom: 4%;
+}
+
+.home-top-charts-song-singer {
+  width: 80px;
+  height: 80px;
+  margin-left: 6%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.home-top-charts-song-favourite {
+  width: 32px;
+  height: 32px;
+  margin-left: 4%;
+}
+
+.home-top-charts-song-content {
+  color: #fff;
+  line-height: 4px;
+  padding: 8px;
+  margin-left: 2%;
+}
+
+.home-top-charts-song-title {
+  white-space: nowrap;
+  width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.home-top-charts-song-singer-name {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 8px;
+}
+
+.home-top-charts-song-duration {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 16px;
+}
+
+.home-top-artist-header {
+  color: #fff;
+  margin-top: 56px;
+}
+
+.home-artist-container {
+  background: #1d2123b4;
+  opacity: 1;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  width: 277px;
+  height: 359px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.home-artist-img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #d9d9d9;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.home-artist-name {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.home-scroll-container {
+  display: flex;
+  width: 1628px;
+}
+
+.home-type-container {
+  width: 368px;
+  height: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  border-radius: 16px;
+  color: #fff;
+  padding: 4px 32px 4px 32px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+
+.home-type-text-container {
+  margin-left: 16px;
+}
+
+.home-type-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  border: 0.25px solid #d9d9d9;
+  object-fit: cover;
+}
+
+.home-type-name {
+  font-size: 18px;
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.home-top-chart-container {
+  height: 628px;
+  overflow-y: hidden;
+}
+
+.home-type-singer {
+  font-size: 14px;
+  line-height: 0;
+}
+
+.home-type-text-container {
+  line-height: 24px;
+}
+
+.home-bottom {
+  margin-bottom: 64px;
+}

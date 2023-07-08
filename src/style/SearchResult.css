@@ -1,0 +1,118 @@
+.searchResult-container {
+  display: flex;
+  color: #fff;
+}
+
+.searchResult-top-result-container {
+  width: 52%;
+}
+
+.searchResult-top-result {
+  width: 735px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.64);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.searchResult-song-bottom-ava {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  margin-right: 32px;
+  object-fit: cover;
+}
+
+.searchResult-song-result-container {
+  display: flex;
+  align-items: center;
+}
+
+.searchResult-song-bottom-name {
+  font-size: 36px;
+  margin: 0;
+}
+
+.searchResult-song-bottom-artist-name {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.searchResult-song-bottom-control-container-full {
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResult-song-bottom-control-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.searchResult-song-bottom-control-pause-play-button {
+  margin: 0 64px;
+}
+
+.searchResult-song-bottom-control-play-duration {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResult-song-bottom-control-duration {
+  color: #fff;
+}
+
+.searchResult-songs {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  padding: 24px 24px;
+  margin-bottom: 16px;
+}
+
+.searchResult-songs-content {
+  display: flex;
+  align-items: center;
+}
+
+.searchResult-songs-text-container {
+  margin-left: 16px;
+}
+
+.searchResult-songs-text-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.searchResult-songs-text-artist {
+  margin: 0;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.searchResult-songs-btn {
+  font-size: 24px;
+  color:rgba(255, 255, 255, 0.4);
+  cursor: pointer
+}
+
+.searchResult-songs-btn:hover {
+  font-size: 24px;
+  color:rgba(255, 255, 255, 0.8)
+}
+
+.searchResult-song-bottom-control-pause-button {
+  width: 32px;
+  height: 32px;
+}
+
+.searchResult-song-bottom-control-play-button {
+  width: 32px;
+  height: 32px;
+}
