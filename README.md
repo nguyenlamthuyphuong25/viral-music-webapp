@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# VIRAL MUSIC WEB - PRN231
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+:wave: Welcome to our Building Cross-Platform Back-End Application With .NET (PRN231) Project :wave:
 
-## Available Scripts
+:point_right: [Live Demo Here](https://youtu.be/55RuJXYfV-M?si=5co0a_88qqrX6dg8) :point_left:
 
-In the project directory, you can run:
+## Table of Contents
+- [Description](#description)
+- [Preview Screenshot](#preview-screenshot)
+- [Technology](#technology)
+- [Functional requirements](#functional-requirements)
+- [Useful Resources](#useful-resources)
+- [Contributors](#contributors)
+- [References](#references)
+- [License & Copyright](#license--copyright)
 
-### `npm start`
+## Description
+- The website synthesizes the music that is going viral.
+- This project started from 03-01-2023 to 31-03-2023
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Preview Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**1. Website for user**
 
-### `npm test`
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HAPPY-3-FRIENDS/viral-music-back-end/main/UI/screenshot/user-login.png" alt="User Login" width="48%"></img> &nbsp;&nbsp; <img src="https://raw.githubusercontent.com/HAPPY-3-FRIENDS/viral-music-back-end/main/UI/screenshot/user-home.png" alt="User Home" width="48%"></img> &nbsp;&nbsp; <img src="https://raw.githubusercontent.com/HAPPY-3-FRIENDS/viral-music-back-end/main/UI/screenshot/user-top.png" alt="User Top" width="48%"></img> &nbsp;&nbsp; <img src="https://raw.githubusercontent.com/HAPPY-3-FRIENDS/viral-music-back-end/main/UI/screenshot/user-top-chart.png" alt="User Top Chart" width="48%"></img>
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**2. Website for admin**
 
-### `npm run build`
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HAPPY-3-FRIENDS/viral-music-back-end/main/UI/screenshot/admin.png" alt="User Login" width="98%"></img>
+</div>
+  
+## Technology
+**1. Frontend**
+  - HTML, CSS, JavaScript
+  - React JS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**2. Backend**
+  - C# Language
+  - .NET Core - Entity Framework
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**3. Database**
+  - Microsoft SQL Server - a relational model database server produced by Microsoft
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**4. Other Technologies**
+- RESTful API
+- Firebase for Music Storage
+- JSON Web Tokens for authentication
 
-### `npm run eject`
+**5. Tool**
+  - Visual Studio 2022
+  - Visual Studio Code 
+  - Figma
+  - Swagger API Documentation
+  - Postman
+  - Draw.io for ERD Diagram
+  - Microsoft SQL Server Management Studio 18
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Functional requirements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**1. User:**
+- [ ] Listen to viral music.
+- [ ] Select shuffle playlist by tags.
+- [ ] Search for viral music.
+- [ ] Viral Music Chart.
+- [ ] Register - login - logout.
+- [ ] List of favorite music listened to.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**2. Admin:**
+- [ ] Login - logout. 
+- [ ] Add - delete - edit information of music pieces.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Useful Resources
 
-## Learn More
+#| #| Name | Description
+-| -| ---- | -----------
+1| -| Main Project Folder | Main source code
+-| 1.1| [Front-end](https://github.com/HAPPY-3-FRIENDS/viral-music-web) | Front-end source code
+-| 1.2| [Back-end](https://github.com/HAPPY-3-FRIENDS/viral-music-back-end) | Back-end source code
+2| -| Database | Database Information
+-| 2.1| [Database Script](https://github.com/HAPPY-3-FRIENDS/viral-music-back-end/blob/main/database/ViralMusicDBScript.sql) | SQL Scipt
+-| 2.2| [Database Entity Relationship Diagram]() | Database ERD
+3| -| [UI Design](https://www.figma.com/proto/HDnvo2txSBeXvzgSTHeUyj/PRN231---Viral-Music-Web?node-id=12-263&scaling=scale-down&page-id=0%3A1&starting-point-node-id=17%3A293&show-proto-sidebar=1) | UI design on Figma
+-| 3.1| [UI Design Screenshot](https://github.com/HAPPY-3-FRIENDS/viral-music-back-end/tree/main/UI) | UI Design Screenshot
+4| -| [Document Folder](https://github.com/HAPPY-3-FRIENDS/viral-music-back-end/tree/main/Requirement) | Document folder includes Requirement and Business Rules
+5| -| [Live Demo](https://youtu.be/55RuJXYfV-M?si=5co0a_88qqrX6dg8) | Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributors
+**1. Mentors:**
+- Lecturer - Mentor: Lam Huu Khanh Phuong
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**2. Members:**
+- [Nguyen Dao Duc Quan](https://github.com/dq-qiji) - SE151008 - **Leader | Business Analyst | Back-end Developer**
+- [Huynh Le Thuy Tien](https://github.com/tienhuynh-tn) - SE151104 - **Back-end Developer | Database Designer**
+- [Nguyen Lam Thuy Phuong](https://github.com/nguyenlamthuyphuong25) - 	SE150999 - **UI Designer | Front-end Developer**
 
-### Code Splitting
+## References
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License & Copyright
+&copy; 2023 Happy-3-Friends Licensed under the [GPL-3.0 LICENSE](https://github.com/HAPPY-3-FRIENDS/viral-music-back-end/blob/main/LICENSE).
